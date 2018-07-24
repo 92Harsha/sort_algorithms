@@ -2,9 +2,7 @@
 
 a = [10,3,4,1,66,32,12,33,54]
 
-``
-Bubble Sort
-``
+# Bubble Sort
 
 ```
   def bubble_sort(array)
@@ -27,7 +25,8 @@ Bubble Sort
 
 bubble_sort(a)
 
-================================Merge Sort=================================================
+# Merge Sort
+
 ```
 def mergesort(array)
   
@@ -66,7 +65,7 @@ end
 
 mergesort(a)
 
-===========================Selection Sort ====================================
+# Selection Sort 
 
 ```
 def selection_sort(list)  
@@ -87,7 +86,7 @@ end
 list = [10,5,8,93,6,2]
 print selection_sort(list)
 
-============================Insertion Sort===================================
+# Insertion Sort
 
 ```
 def insertion_sort(list)  
@@ -105,7 +104,7 @@ end
 list = [10,5,8,93,6,2]
 print insertion_sort(list)
 
-================================Quick Sort===================================
+# Quick Sort
 
 ```
 def quick_sort(array)
