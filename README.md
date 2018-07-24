@@ -83,8 +83,7 @@ def selection_sort(list)
 end 
 ```
 
-list = [10,5,8,93,6,2]
-print selection_sort(list)
+print selection_sort(a)
 
 # Insertion Sort
 
@@ -101,8 +100,7 @@ def insertion_sort(list)
 end 
 ```
 
-list = [10,5,8,93,6,2]
-print insertion_sort(list)
+print insertion_sort(a)
 
 # Quick Sort
 
@@ -126,6 +124,5 @@ def quick_sort(array)
 end
 ```
 
-array = [10,5,8,93,6,2]
-print quick_sort(array)
+print quick_sort(a)
 
