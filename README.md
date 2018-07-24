@@ -23,7 +23,7 @@ a = [10,3,4,1,66,32,12,33,54]
   end
 ```
 
-bubble_sort(a)
+print bubble_sort(a)
 
 # Merge Sort
 
@@ -63,7 +63,7 @@ def mergesort(array)
 end
 ```
 
-mergesort(a)
+print mergesort(a)
 
 # Selection Sort 
 
