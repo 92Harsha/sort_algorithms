@@ -1,4 +1,4 @@
-# sort_algorithms
+# 5 Sorting Algorithms
 
 a = [10,3,4,1,66,32,12,33,54]
 
