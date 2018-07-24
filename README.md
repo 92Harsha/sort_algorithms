@@ -3,7 +3,7 @@
 a = [10,3,4,1,66,32,12,33,54]
 
 ================================Bubble Sort=================================================
-
+```
   def bubble_sort(array)
     n = array.length
     loop do
@@ -20,11 +20,12 @@ a = [10,3,4,1,66,32,12,33,54]
 
     array
   end
-
+```
 
 bubble_sort(a)
-================================Merge Sort=================================================
 
+================================Merge Sort=================================================
+```
 def mergesort(array)
   
   def merge(left_sorted, right_sorted)
@@ -58,12 +59,13 @@ def mergesort(array)
 
   mergesort_iter(array)
 end
+```
 
 mergesort(a)
 
 ===========================Selection Sort ====================================
 
-
+```
 def selection_sort(list)  
   (0...list.length).each do |i|
     k = i
@@ -77,13 +79,14 @@ def selection_sort(list)
   end
   list
 end 
-
+```
 
 list = [10,5,8,93,6,2]
 print selection_sort(list)
 
 ============================Insertion Sort===================================
 
+```
 def insertion_sort(list)  
   (1...list.length).each do |i| 
       k = i
@@ -94,12 +97,14 @@ def insertion_sort(list)
   end
   list
 end 
+```
 
 list = [10,5,8,93,6,2]
 print insertion_sort(list)
 
 ================================Quick Sort===================================
 
+```
 def quick_sort(array)
   return array if array.length <= 1
   pivot = array.delete_at(rand(array.length))
@@ -117,9 +122,8 @@ def quick_sort(array)
 
   return *quick_sort(left), pivot ,*quick_sort(right)
 end
+```
 
 array = [10,5,8,93,6,2]
 print quick_sort(array)
-
-
 
